@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+.alert {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  z-index: 1000;
+}
+.alert-success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+
+.hero h2{
+    font-size: 38px;
+}
+.hero h2 span{
+    color: #0d7997;
+}
+.corporate-office .btn {
+    color: white;
+    font-weight: 700;
+    cursor: default;
+}
+
+.custom-btn{
+    cursor: default;
+    font-size: 15px;
+}
+
+.corporate-office h5 {
+    color: #000;
+}
+
+.corporate-office .para {
+    margin-bottom: 10px;
+    color: rgb(235, 124, 6);
+    font-weight: 500;
+    font-size: 24px;
+}
+.corporate-office .para span{
+    color: #0060af;
+    font-weight: 700;
+}
+.corporate-office .parablack{
+    color: #696868;
+}
+.marginleft{
+    margin-left: 40px;
+}
+.icon-bordered {
+    border: 2px solid #14a0c8;
+    padding: 5px;
+    border-radius: 10%;
+    background-color: #14a0c8;
+    color: #ffffff;
+    margin-right: 10px;
+}
+.form-group label {
+    /* font-weight: bold; */
+    color: #565656;
+    font-size: 16px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding:5px 27px;
+    font-size: 17px;
+}
+
+@media (max-width: 768px) {
+    .corporate-office, .form-group {
+        margin-top: 20px;
+    }
+}
