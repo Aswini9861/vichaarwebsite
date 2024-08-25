@@ -1,6 +1,5 @@
 
 import React from 'react'
-import { Link } from 'react-router-dom'
   const Commonissue = () => {
   return (
     <>
@@ -94,11 +93,8 @@ import { Link } from 'react-router-dom'
         </div>
       </div>
     </section>
-    
-    {/*All js files*/}
-    {/*Common Vichaar Lab script file*/}
   </div>
- 
+
   </>
   )
 }

@@ -4,7 +4,6 @@
   return (
     <>
   <div>
-    {/*start home-about  */}
     <section className="home-about sec-pad r-bg-x web-app-first">
       <div className="container">
         <div className="row">
@@ -23,8 +22,6 @@
         </div>
       </div>
     </section>
-    {/*home-about end*/}
-    {/* Services Section Start */}
     <section className="web-add-ss">
       <div className="serv-sec">
         <h1>Results-Oriented Product Development Solutions</h1>
@@ -61,8 +58,6 @@
         </div>
       </div>
     </section>
-    {/* Services Section End */}
-    {/* Services Section Start */}
     <section className="web-add-ss">
       <div className="serv-sec">
         <h1 style={{paddingTop: 0}}>Our Top Mobile Development Solutions</h1>
@@ -123,7 +118,6 @@
         </div>
       </div>
     </section>
-    {/* Services Section End */}
     <section className="ind-we-work">
       <div className="container">
         <div className="row"><div className="col-md-12"><h2>Industries We Work With</h2></div></div>
@@ -173,8 +167,7 @@
         </div>
       </div>
     </section>
-    {/*All js files*/}
-    {/*Common Vichaar Lab script file*/}
+
   </div>
 
   </>

@@ -4,14 +4,12 @@ import {Link} from 'react-router-dom'
   const Realestate = () =>{
   return (
  <>
-{/*page head*/}
 <section className="page-heading-sec about-pag-head sec-pad real-first-sec">
   <div className="container">
     <div className="row">
       <div className="col-lg-6">
         <div className="page-heading mr25">
           <span className="sub-heading mb15" data-aos="fade-up" data-aos-delay={200}>Why Us</span>
-          {/* <h2 data-aos="fade-up" data-aos-delay="400"> Lorem <span class="ree-text rt45">Ipsum</span>  is simply dummy text of the printing.</h2> */}
           <p className="mt30" data-aos="fade-up" data-aos-delay={600}>We're providing complete Real Estate web development and CRM solutions that can help to grow your real estate company using technology and expand it simultaneously. Increase brand reputation, sales and offer ultimate customer satisfaction of your real estate industries. Draw attention to customers with real estate solutions be sure that our services are complete and profitable.</p>
         </div>
       </div>
@@ -23,7 +21,6 @@ import {Link} from 'react-router-dom'
     </div>
   </div>
 </section>
-{/*page head end*/}
 
 
   <div>
@@ -428,7 +425,7 @@ import {Link} from 'react-router-dom'
         </div>
       </div>
     </section>
-    
+
     {/*start career cta*/}
     <section className="r-bg-a  sec-pad">
       <div className="container">
@@ -450,11 +447,9 @@ import {Link} from 'react-router-dom'
         </div>
       </div>
     </section>
-    {/*end career cta*/}
-    {/*All js files*/}
-    {/*Common Vichaar Lab script file*/}
+
   </div>
- 
+
   </>
   )
 }
